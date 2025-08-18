@@ -1,0 +1,6 @@
+Courier ID,Name,Phone,Vehicle Type,City,Category,Preferred App,Vehicle ID,Own Vehicle,Start Date,End Date,Status,Total Orders,Total Earnings,Rating,Documents
+123,Ahmed Ali,+966501234567,motorcycle,riyadh,kafalah,hungerstation,,false,2024-01-15,,active,0,0,0,
+124,Sarah Mohamed,+966502345678,car,jeddah,iqama,jahez,,true,2024-01-20,,active,0,0,0,
+125,Omar Hassan,+966503456789,bicycle,dammam,visit,toyou,,false,2024-01-25,,active,0,0,0,
+126,Fatima Abdullah,+966504567890,scooter,mecca,kafalah,hungerstation,,true,2024-02-01,,active,0,0,0,
+127,Khalid Al-Rashid,+966505678901,motorcycle,medina,iqama,jahez,,false,2024-02-05,,active,0,0,0,

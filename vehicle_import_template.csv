@@ -1,0 +1,4 @@
+Vehicle ID,Type,Category,Leasing Company,Assigned Courier,Status,Location,KM Reading,Start Date,End Date
+V001,motorcycle,commitment,Al Rajhi Leasing,,active,riyadh,5000,2024-01-15,2024-12-31
+V002,car,rent,Safi Leasing,,active,jeddah,12000,2024-02-01,2024-11-30
+V003,van,commitment,Theeb Leasing,,active,dammam,25000,2024-03-10,2025-03-09

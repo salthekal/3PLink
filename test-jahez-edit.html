@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Jahez Edit</title>
+</head>
+<body>
+    <h1>Testing Jahez Payment Edit</h1>
+    <button onclick="testEdit()">Test Edit Payment ID 89</button>
+    <div id="result"></div>
+    
+    <script>
+    async function testEdit() {
+        const resultDiv = document.getElementById('result');
+        
+        try {
+            // Test direct fetch
+            const response = await fetch('/api/jahez-payments/89', {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                credentials: 'include',
+                body: JSON.stringify({ paid: '999.00' })
+            });
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            resultDiv.innerHTML = `
+                <h3>Success!</h3>
+                <p>Payment ID: ${data.id}</p>
+                <p>Paid Amount: ${data.paid}</p>
+                <p>Settled By: ${data.settledBy}</p>
+            `;
+        } catch (error) {
+            resultDiv.innerHTML = `<h3>Error:</h3><p>${error.message}</p>`;
+        }
+    }
+    </script>
+</body>
+</html>
