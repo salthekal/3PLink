@@ -50,7 +50,7 @@ Last-mile food-delivery 3PLs in Saudi Arabia operate a brutal operational stack:
 
 **3PLink collapses all of this into one operational system of record.** Every courier, every vehicle, every riyal, every document — visible in one place, drillable down to the courier level, filterable by city.
 
-Built in production at [Future Link for Logistics](https://www.linkedin.com/company/future-link-logistics) — صار رابط المستقبل للخدمات اللوجستية.
+Built in production at [Future Link for Logistics](https://www.linkedin.com/company/future-link-logistics).
 
 <br/>
 
