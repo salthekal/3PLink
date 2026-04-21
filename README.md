@@ -30,7 +30,7 @@
 
 <br/>
 
-<img src="./assets/dashboard.png" alt="3PLink dashboard" width="92%" />
+<img src="./assets/Dashboard.png" alt="3PLink dashboard" width="92%" />
 
 <sub><i>Live dashboard — city-scoped filtering, fleet status, per-platform performance, and unit economics.</i></sub>
 
